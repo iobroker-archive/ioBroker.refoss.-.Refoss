@@ -1,9 +1,9 @@
 {
   "common": {
     "name": "refoss",
-    "version": "0.1.10",
+    "version": "0.1.11",
     "news": {
-      "0.1.10": {
+      "0.1.11": {
         "en": "Revise the feedback content",
         "de": "Den Feedback-Inhalt überarbeiten",
         "ru": "Отредактировать содержимое обратной связи",
@@ -83,7 +83,7 @@
     "platform": "Javascript/Node.js",
     "icon": "refoss.png",
     "enabled": true,
-    "extIcon": "https://bucket-meross-static.meross.com/meross/production/staticfile/image/2024/11/12/reofss/refoss.png",
+    "extIcon": "https://raw.githubusercontent.com/Refoss/ioBroker.refoss/main/admin/refoss.png",
     "readme": "https://github.com/Refoss/ioBroker.refoss/blob/master/README.md",
     "loglevel": "info",
     "tier": 3,
