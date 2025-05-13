@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "refoss",
-    "version": "0.1.11",
+    "version": "1.0.0",
     "news": {
+      "1.0.0": {
+        "en": "Modify the channel display order",
+        "de": "Die Anzeigereihenfolge der Kanäle ändern",
+        "ru": "Изменить порядок отображения каналов",
+        "pt": "Alterar a ordem de exibição dos canais",
+        "nl": "De volgorde van de kanalen wijzigen",
+        "fr": "Modifier l'ordre d'affichage des canaux",
+        "it": "Modificare l'ordine di visualizzazione dei canali",
+        "es": "Modificar el orden de visualización de los canales",
+        "pl": "Zmienić kolejność wyświetlania kanałów",
+        "uk": "Змінити порядок відображення каналів",
+        "zh-cn": "修改通道显示顺序"
+      },
       "0.1.11": {
         "en": "Revise the feedback content",
         "de": "Den Feedback-Inhalt überarbeiten",

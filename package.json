@@ -1,6 +1,6 @@
 {
   "name": "iobroker.refoss",
-  "version": "0.1.11",
+  "version": "1.0.0",
   "description": "Integrate your Refoss devices",
   "author": {
     "name": "zhaochuanling",

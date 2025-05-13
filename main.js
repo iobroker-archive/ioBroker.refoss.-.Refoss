@@ -82,7 +82,7 @@ class Refoss extends utils.Adapter {
             const idOnline = `${deviceId}.online`;
             this.onlineState = (await this.getStateAsync(idOnline)) || {};
             if (this.onlineState) {
-                await this.setStateChangedAsync(idOnline, { val: false, ack: true });
+                await this.setStateAsync(idOnline, { val: false, ack: true });
             }
         }
         this.onlineDevices = {};
@@ -135,7 +135,7 @@ class Refoss extends utils.Adapter {
                 : false;
             if (prevValue != status) {
                 this.onlineState.val = status;
-                await this.setStateChangedAsync(idOnline, { val: status, ack: true });
+                await this.setStateAsync(idOnline, { val: status, ack: true });
             }
         }
 
