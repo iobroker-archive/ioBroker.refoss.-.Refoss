@@ -29,7 +29,7 @@ You can find more and detailed information about the device here: [Refoss](https
 
 ### 1.0.0 (2025-05-13)
 
-- (zhaochuanling) Modify the channel display order
+- (zhoulinyue) Modify the channel display order
 
 ### 0.1.11 (2025-04-23)
 
