@@ -81,12 +81,28 @@ class Refoss extends utils.Adapter {
             const deviceId = this.cachedDevices[d];
             const idOnline = `${deviceId}.online`;
             this.onlineState = (await this.getStateAsync(idOnline)) || {};
-            if (this.onlineState) {
+            // Check whether the device is actually online
+            const stateHostname = await this.getStateAsync(`${deviceId}.hostname`);
+            const valHostname = stateHostname ? stateHostname.val : undefined;
+            if (valHostname) {
+                // Wrap tcpPing.probe with Promise
+                const isAlive = await new Promise((resolve) => {
+                    tcpPing.probe(valHostname, 80, (error, isAlive) => {
+                        resolve(isAlive);
+                    });
+                });
+                await this.setStateAsync(idOnline, { val: isAlive, ack: true });
+                if (isAlive) {
+                    this.onlineDevices[deviceId] = true;
+                }
+            } else {
                 await this.setStateAsync(idOnline, { val: false, ack: true });
             }
         }
-        this.onlineDevices = {};
-        await this.setStateAsync('info.connection', { val: false, ack: true });
+        
+        // Update connection status
+        const onlineDeviceCount = Object.keys(this.onlineDevices).length;
+        await this.setStateAsync('info.connection', { val: onlineDeviceCount > 0, ack: true });
     }
     /**
      * Online-Check TCP ping
