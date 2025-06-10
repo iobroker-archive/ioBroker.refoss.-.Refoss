@@ -86,7 +86,7 @@ class Refoss extends utils.Adapter {
             const valHostname = stateHostname ? stateHostname.val : undefined;
             if (valHostname) {
                 // Wrap tcpPing.probe with Promise
-                const isAlive = await new Promise((resolve) => {
+                const isAlive = await new Promise(resolve => {
                     tcpPing.probe(valHostname, 80, (error, isAlive) => {
                         resolve(isAlive);
                     });
@@ -99,7 +99,6 @@ class Refoss extends utils.Adapter {
                 await this.setStateAsync(idOnline, { val: false, ack: true });
             }
         }
-        
         // Update connection status
         const onlineDeviceCount = Object.keys(this.onlineDevices).length;
         await this.setStateAsync('info.connection', { val: onlineDeviceCount > 0, ack: true });
