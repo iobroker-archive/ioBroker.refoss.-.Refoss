@@ -136,6 +136,14 @@ class Refoss extends utils.Adapter {
             if (prevValue != status) {
                 this.onlineState.val = status;
                 await this.setStateAsync(idOnline, { val: status, ack: true });
+                
+                // If the device goes online again, trigger data update
+                if (status && this.server) {
+                    const deviceBase = this.server.deviceBase.find(device => device.deviceId === deviceId);
+                    if (deviceBase) {
+                        await deviceBase.httpState();
+                    }
+                }
             }
         }
 
