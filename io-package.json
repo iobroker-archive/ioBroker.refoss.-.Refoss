@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "refoss",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "news": {
+      "1.1.0": {
+        "en": "Monitor battery level, if the network is online, trigger data update again",
+        "de": "Überwachen Sie die Stromversorgung und lösen Sie die Datenaktualisierung erneut aus, wenn das Netzwerk online ist",
+        "ru": "Мониторинг заряда, если сеть онлайн, повторный запуск обновления данных",
+        "pt": "Monitore a energia e reative a atualização de dados se a rede estiver online",
+        "nl": "Luisteren naar de stroom, als het netwerk online is, activeer de update van de gegevens opnieuw",
+        "fr": "Écouter la puissance, si le réseau est en ligne, re - déclencher la mise à jour des données",
+        "it": "Ascoltare la potenza, se la rete è in linea, riattivare l'aggiornamento dei dati",
+        "es": "Monitorear la electricidad, si la red está en línea, volver a activar la actualización de datos",
+        "pl": "Monitorowanie zasilania i ponowne uruchomienie aktualizacji danych, jeśli sieć jest online",
+        "uk": "Слухати потужність, якщо мережа в інтернеті, повторно запустити оновлення даних",
+        "zh-cn": "监听电量，如果网络在线，重新触发数据更新"
+      },
       "1.0.0": {
         "en": "Modify the channel display order",
         "de": "Die Anzeigereihenfolge der Kanäle ändern",
