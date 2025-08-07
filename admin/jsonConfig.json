@@ -1,0 +1,61 @@
+{
+    "i18n": true,
+    "type": "tabs",
+    "tabsStyle": {
+        "width": "calc(100% - 100px)"
+    },
+    "iconPosition": "top",
+    "items": {
+        "_deviceType": {
+            "type": "panel",
+            "label": "Device selection",
+            "icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxzdmcgdmlld0JveD0iMCAwIDQ0OCA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogICAgPGcgdHJhbnNmb3JtPSJtYXRyaXgoMi4wNDY4NDYsIDAsIDAsIDIuMDQ2ODQ2LCAtNzkuMTM2MzIyLCAtMzcuNTUzNzMpIiBzdHlsZT0iIj4NCiAgICAgICAgPHBhdGggZD0iTTQ2LDY0LjJ2MzFjMC4yLDAsMC40LDAsMC42LDBjODQuNCwwLDE1My4yLDY4LDE1My45LDE1MS44aDMwLjFDMjI5LjgsMTQ2LjMsMTQ3LjQsNjQuNSw0Niw2NC4yeiIgZmlsbD0iI0ZGRkZGRiIgc3R5bGU9IiIvPg0KICAgICAgICA8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNNDYsMTI4LjJ2MzFjMC4yLDAsMC40LDAsMC42LDBjNDguOSwwLDg4LjgsMzkuMyw4OS41LDg3LjhoMzAuMUMxNjUuNSwxODEuNiwxMTEuOSwxMjguNSw0NiwxMjguMnoiIHN0eWxlPSIiLz4NCiAgICAgICAgPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTI0OC44LDE2Ni44di02Mi41Yy03LjctMTAuNS0xNy4yLTIyLjUtMjYuNy0zMS44Yy0xMC42LTEwLjUtMjMtMjAtMzUtMjguM2gtNjYuNCBDMTc4LjksNjUuMSwyMjUuNiwxMTAsMjQ4LjgsMTY2Ljh6IiBzdHlsZT0iIi8+DQogICAgICAgIDxwYXRoIGQ9Ik00Ni41LDE1OS4yYy0wLjIsMC0wLjQsMC0wLjYsMHY3Ny42YzAsNS42LDQuNiwxMC4yLDEwLjIsMTAuMkgxMzZDMTM1LjMsMTk4LjUsOTUuNSwxNTkuMiw0Ni41LDE1OS4yeiIgc3R5bGU9IiIvPg0KICAgICAgICA8cGF0aCBkPSJNNDYuNSw5NS4yYy0wLjIsMC0wLjQsMC0wLjYsMHYzM2M2NS45LDAuMywxMTkuNSw1My4zLDEyMC4yLDExOC44aDM0LjJDMTk5LjcsMTYzLjIsMTMxLDk1LjIsNDYuNSw5NS4yeiIgc3R5bGU9IiIvPg0KICAgICAgICA8cGF0aCBkPSJNMjQ4LjgsMjM2Ljl2LTcwLjFjLTIzLjItNTYuOC02OS45LTEwMS43LTEyOC0xMjIuNkg1Ni4xYy01LjYsMC0xMC4yLDQuNi0xMC4yLDEwLjJ2OS45IGMxMDEuNCwwLjMsMTgzLjksODIsMTg0LjUsMTgyLjhoOC4yQzI0NC4zLDI0NywyNDguOCwyNDIuNSwyNDguOCwyMzYuOXoiIHN0eWxlPSIiLz4NCiAgICAgICAgPHBhdGggZD0iTTIyMi4xLDcyLjVjOS40LDkuNCwxOSwyMS4zLDI2LjcsMzEuOHYtNTBjMC01LjYtNC41LTEwLjEtMTAuMS0xMC4xaC01MS41QzE5OS4yLDUyLjUsMjExLjYsNjIsMjIyLjEsNzIuNSB6IiBzdHlsZT0iIi8+DQogICAgPC9nPg0KPC9zdmc+DQo=",
+            "items": {
+                "deviceType": {
+                    "newLine": true,
+                    "type": "select",
+                    "options": [
+                        {
+                            "label": {
+                                "en": "EM06",
+                                "de": "EM06",
+                                "ru": "EM06",
+                                "pt": "EM06",
+                                "nl": "EM06",
+                                "fr": "EM06",
+                                "it": "EM06",
+                                "es": "EM06",
+                                "pl": "EM06",
+                                "uk": "EM06",
+                                "zh-cn": "EM06"
+                            },
+                            "value": "em06"
+                        },
+                        {
+                            "label": {
+                                "en": "EM06P",
+                                "de": "EM06P",
+                                "ru": "EM06P",
+                                "pt": "EM06P",
+                                "nl": "EM06P",
+                                "fr": "EM06P",
+                                "it": "EM06P",
+                                "es": "EM06P",
+                                "pl": "EM06P",
+                                "uk": "EM06P",
+                                "zh-cn": "EM06P"
+                            },
+                            "value": "em06p"
+                        }
+                    ],
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 4,
+                    "lg": 4,
+                    "xl": 4,
+                    "label": "Device type"
+                }
+            }
+        }
+    }
+}

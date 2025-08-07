@@ -119,7 +119,7 @@
     "dataSource": "push",
     "compact": true,
     "adminUI": {
-      "config": "none"
+      "config": "json"
     },
     "singletonHost": true,
     "dependencies": [

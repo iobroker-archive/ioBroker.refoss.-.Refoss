@@ -33,6 +33,7 @@ class Refoss extends utils.Adapter {
     async onReady() {
         try {
             objectHelper.init(this);
+            const deviceType = this.config.deviceType; // 获取用户配置的设备类型
 
             await this.initOnlineStatus();
 
@@ -43,7 +44,8 @@ class Refoss extends utils.Adapter {
                 this.clientServer = new BaseClient(this);
 
                 const devices = await this.getDevicesAsync();
-                this.server = new BaseServer(this, objectHelper, devices);
+                // 将设备类型传递给服务器
+                this.server = new BaseServer(this, objectHelper, devices, deviceType);
             }, 100);
         } catch (error) {
             this.log.error(error.toString());
