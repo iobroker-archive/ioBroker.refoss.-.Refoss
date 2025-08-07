@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "refoss",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "news": {
+      "1.1.1": {
+        "en": "Enhance the compatibility of EM06P devices",
+        "de": "Verbessern Sie die Kompatibilität von EM06P-Geräten",
+        "ru": "Улучшить совместимость устройств EM06P",
+        "pt": "Melhore a compatibilidade de dispositivos EM06P",
+        "nl": "Verbeter de compatibiliteit van EM06P-apparaten",
+        "fr": "Améliorer la compatibilité des appareils EM06P",
+        "it": "Migliorare la compatibilità dei dispositivi EM06P",
+        "es": "Mejorar la compatibilidad de los dispositivos EM06P",
+        "pl": "Zwiększając zgodność urządzeń EM06P",
+        "uk": "Покращити сумісність пристроїв EM06P",
+        "zh-cn": "增加em06p设备的适配"
+      },
       "1.1.0": {
         "en": "Monitor battery level, if the network is online, trigger data update again",
         "de": "Überwachen Sie die Stromversorgung und lösen Sie die Datenaktualisierung erneut aus, wenn das Netzwerk online ist",
@@ -119,7 +132,7 @@
     "dataSource": "push",
     "compact": true,
     "adminUI": {
-      "config": "none"
+      "config": "json"
     },
     "singletonHost": true,
     "dependencies": [

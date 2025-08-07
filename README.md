@@ -26,6 +26,10 @@ You can find more and detailed information about the device here: [Refoss](https
 | Refoss Smart Energy Monitor, EM06 | >= v2.3.8 |
 
 ## Changelog
+### 1.1.1 (2025-08-07)
+
+- (zhoulinyue) Enhance the compatibility of EM06P devices
+
 ### 1.1.0 (2025-05-13)
 
 - (zhoulinyue) Monitor battery level, if the network is online, trigger data update again
