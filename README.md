@@ -26,7 +26,11 @@ You can find more and detailed information about the device here: [Refoss](https
 | Refoss Smart Energy Monitor, EM06 | >= v2.3.8 |
 
 ## Changelog
-### 1.1.1 (2025-08-07)
+### 1.1.3 (2025-08-08)
+
+- (zhoulinyue) Enhance the compatibility of EM06P devices
+
+### 1.1.2 (2025-08-08)
 
 - (zhoulinyue) Fix the problem that the value of factor, mConsume, mConsumeRe is 0 but returns 0
 
