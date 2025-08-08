@@ -28,6 +28,10 @@ You can find more and detailed information about the device here: [Refoss](https
 ## Changelog
 ### 1.1.1 (2025-08-07)
 
+- (zhoulinyue) Fix the problem that the value of factor, mConsume, mConsumeRe is 0 but returns 0
+
+### 1.1.1 (2025-08-07)
+
 - (zhoulinyue) Enhance the compatibility of EM06P devices
 
 ### 1.1.0 (2025-05-13)

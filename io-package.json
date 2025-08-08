@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "refoss",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "news": {
+      "1.1.2": {
+        "en": "Fix the problem that the value of factor, mConsume, mConsumeRe is 0 but returns 0",
+        "de": "Beheben Sie das Problem, dass der Wert von factor, mConsume, mConsumeRe 0 ist, aber 0 zurückgibt",
+        "ru": "Исправьте проблему, когда значение factor, mConsume, mConsumeRe равно 0, но возвращает 0",
+        "pt": "Corrija o problema em que o valor de factor, mConsume, mConsumeRe é 0, mas retorna 0",
+        "nl": "Fix het probleem dat de waarde van factor, mConsume, mConsumeRe 0 is, maar 0 retourneert",
+        "fr": "Corriger le problème où la valeur de factor, mConsume, mConsumeRe est 0 mais retourne 0",
+        "it": "Risolvi il problema in cui il valore di factor, mConsume, mConsumeRe è 0 ma restituisce 0",
+        "es": "Corregir el problema en que el valor de factor, mConsume, mConsumeRe es 0 pero retorna 0",
+        "pl": "Rozwiąż problem, w którym wartość factor, mConsume, mConsumeRe wynosi 0, ale zwraca 0",
+        "uk": "Виправте проблему, коли значення factor, mConsume, mConsumeRe дорівнює 0, але повертає 0",
+        "zh-cn": "修复factor, mConsume, mConsumeRe有值但返回为0的问题"
+      },
       "1.1.1": {
         "en": "Enhance the compatibility of EM06P devices",
         "de": "Verbessern Sie die Kompatibilität von EM06P-Geräten",
@@ -132,7 +145,7 @@
     "dataSource": "push",
     "compact": true,
     "adminUI": {
-      "config": "json"
+      "config": "none"
     },
     "singletonHost": true,
     "dependencies": [
