@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@apollon/iobroker-tools": "^0.3.0",
-    "@iobroker/adapter-core": "^3.2.3",
+    "@iobroker/adapter-core": "^3.3.1",
     "axios": "^1.9.0",
     "tcp-ping": "^0.1.1"
   },
