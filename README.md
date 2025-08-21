@@ -26,6 +26,10 @@ You can find more and detailed information about the device here: [Refoss](https
 | Refoss Smart Energy Monitor, EM06 | >= v2.3.8 |
 
 ## Changelog
+### 1.1.4 (2025-08-21)
+
+- (zhoulinyue) Fix the official issue mentioned in iobroker official PR
+
 ### 1.1.3 (2025-08-08)
 
 - (zhoulinyue) Enhance the compatibility of EM06P devices
