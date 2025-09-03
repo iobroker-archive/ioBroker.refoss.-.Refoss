@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "refoss",
-    "version": "1.1.4",
+    "version": "1.2.0",
     "news": {
+      "1.2.0": {
+        "en": "Add support for EM16P devices",
+        "de": "Unterstützung für EM16P-Geräte hinzugefügt",
+        "ru": "Добавлена поддержка устройств EM16P",
+        "pt": "Adicionado suporte para dispositivos EM16P",
+        "nl": "Ondersteuning toegevoegd voor EM16P-apparaten",
+        "fr": "Ajout de la prise en charge des appareils EM16P",
+        "it": "Aggiunto supporto per i dispositivi EM16P",
+        "es": "Se añadió soporte para dispositivos EM16P",
+        "pl": "Dodano wsparcie dla urządzeń EM16P",
+        "uk": "Додано підтримку пристроїв EM16P",
+        "zh-cn": "添加对em16p设备的支持"
+      },
       "1.1.4": {
         "en": "Fix the official issue mentioned in PR",
         "de": "Beheben Sie das offizielle Problem, das in der PR erwähnt wird",
