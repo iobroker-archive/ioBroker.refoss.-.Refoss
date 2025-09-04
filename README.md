@@ -26,6 +26,10 @@ You can find more and detailed information about the device here: [Refoss](https
 | Refoss Smart Energy Monitor, EM06 | >= v2.3.8 |
 
 ## Changelog
+### 1.2.1 (2025-09-04)
+
+- (zhoulinyue) Formatting the code
+
 ### 1.2.0 (2025-09-03)
 
 - (zhoulinyue) Add support for EM16P devices

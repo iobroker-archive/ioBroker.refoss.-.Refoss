@@ -1,8 +1,20 @@
 {
   "common": {
     "name": "refoss",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "news": {
+      "1.2.1": {
+        "en": "Formatting the code",
+        "de": "Formatierung des Codes",
+        "pt": "Formatação do código",
+        "nl": "Formatering van de code",
+        "fr": "Formatage du code",
+        "it": "Formattazione del codice",
+        "es": "Formato del código",
+        "pl": "Formatowanie kodu",
+        "uk": "Форматування коду",
+        "zh-cn": "格式化代码"
+      },
       "1.2.0": {
         "en": "Add support for EM16P devices",
         "de": "Unterstützung für EM16P-Geräte hinzugefügt",
