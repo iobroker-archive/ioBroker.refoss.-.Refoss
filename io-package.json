@@ -1,8 +1,20 @@
 {
   "common": {
     "name": "refoss",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "news": {
+      "1.2.2": {
+        "en": "Compatible with node v24; solve the error of npm test",
+        "de": "Kompatibel mit node v24; Lösen Sie den Fehler von npm test",
+        "pt": "Formatação do código",
+        "nl": "Compatibel met node v24; Los de fout op van npm test",
+        "fr": "Compatible avec node v24; Résoudre l'erreur de npm test",
+        "it": "Compatibile con node v24; Risolvere l'errore di npm test",
+        "es": "Compatible con node v24; Resolver el error de npm test",
+        "pl": "Kompatybilny z node v24; Rozwiąż błąd npm test",
+        "uk": "Сумісний з node v24; Розв'язати помилку npm test",
+        "zh-cn": "兼容node v24; 解决npm test的报错"
+      },
       "1.2.1": {
         "en": "Formatting the code",
         "de": "Formatierung des Codes",
