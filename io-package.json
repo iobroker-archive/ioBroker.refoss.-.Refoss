@@ -91,71 +91,6 @@
         "pl": "Zwiększając zgodność urządzeń EM06P",
         "uk": "Покращити сумісність пристроїв EM06P",
         "zh-cn": "增加em06p设备的适配"
-      },
-      "1.1.0": {
-        "en": "Monitor battery level, if the network is online, trigger data update again",
-        "de": "Überwachen Sie die Stromversorgung und lösen Sie die Datenaktualisierung erneut aus, wenn das Netzwerk online ist",
-        "ru": "Мониторинг заряда, если сеть онлайн, повторный запуск обновления данных",
-        "pt": "Monitore a energia e reative a atualização de dados se a rede estiver online",
-        "nl": "Luisteren naar de stroom, als het netwerk online is, activeer de update van de gegevens opnieuw",
-        "fr": "Écouter la puissance, si le réseau est en ligne, re - déclencher la mise à jour des données",
-        "it": "Ascoltare la potenza, se la rete è in linea, riattivare l'aggiornamento dei dati",
-        "es": "Monitorear la electricidad, si la red está en línea, volver a activar la actualización de datos",
-        "pl": "Monitorowanie zasilania i ponowne uruchomienie aktualizacji danych, jeśli sieć jest online",
-        "uk": "Слухати потужність, якщо мережа в інтернеті, повторно запустити оновлення даних",
-        "zh-cn": "监听电量，如果网络在线，重新触发数据更新"
-      },
-      "1.0.0": {
-        "en": "Modify the channel display order",
-        "de": "Die Anzeigereihenfolge der Kanäle ändern",
-        "ru": "Изменить порядок отображения каналов",
-        "pt": "Alterar a ordem de exibição dos canais",
-        "nl": "De volgorde van de kanalen wijzigen",
-        "fr": "Modifier l'ordre d'affichage des canaux",
-        "it": "Modificare l'ordine di visualizzazione dei canali",
-        "es": "Modificar el orden de visualización de los canales",
-        "pl": "Zmienić kolejność wyświetlania kanałów",
-        "uk": "Змінити порядок відображення каналів",
-        "zh-cn": "修改通道显示顺序"
-      },
-      "0.1.11": {
-        "en": "Revise the feedback content",
-        "de": "Den Feedback-Inhalt überarbeiten",
-        "ru": "Отредактировать содержимое обратной связи",
-        "pt": "Revisar o conteúdo do feedback",
-        "nl": "Het feedbackinhoud aanpassen",
-        "fr": "Réviser le contenu du feedback",
-        "it": "Revisione del contenuto del feedback",
-        "es": "Revisar el contenido del feedback",
-        "pl": "Przeanalizuj i zmodyfikuj treść opinii zwrotnej",
-        "uk": "Переглянути та виправити вміст зворотного зв'язку",
-        "zh-cn": "修改反馈内容"
-      },
-      "0.1.5": {
-        "en": "initial review",
-        "de": "Erste Überprüfung",
-        "ru": "первоначальный обзор",
-        "pt": "Revisão inicial",
-        "nl": "Eerste beoordeling",
-        "fr": "Examen initial",
-        "it": "Versione iniziale",
-        "es": "Versión inicial",
-        "pl": "Wstępna ocena",
-        "uk": "попередній огляд",
-        "zh-cn": "首次提审"
-      },
-      "0.0.1": {
-        "en": "initial release",
-        "de": "Erstveröffentlichung",
-        "ru": "Начальная версия",
-        "pt": "lançamento inicial",
-        "nl": "Eerste uitgave",
-        "fr": "Première version",
-        "it": "Versione iniziale",
-        "es": "Versión inicial",
-        "pl": "Pierwsze wydanie",
-        "uk": "Початкова версія",
-        "zh-cn": "首次出版"
       }
     },
     "titleLang": {
@@ -214,11 +149,6 @@
     "dependencies": [
       {
         "js-controller": ">=5.0.19"
-      }
-    ],
-    "globalDependencies": [
-      {
-        "admin": ">=6.17.14"
       }
     ]
   },
