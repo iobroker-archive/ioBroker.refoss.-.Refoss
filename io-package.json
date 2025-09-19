@@ -1,11 +1,25 @@
 {
   "common": {
     "name": "refoss",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "news": {
+      "1.2.3": {
+        "en": "Compatible with node v24; delete the unnecessary code",
+        "de": "Kompatibel mit node v24; entfernen Sie den unnötigen Code",
+        "ru": "Совместим с node v24; удалить ненужный код",
+        "pt": "Compatível com node v24; remover o código inútil",
+        "nl": "Compatibel met node v24; verwijder de onnodige code",
+        "fr": "Compatible avec node v24; supprimer le code inutile",
+        "it": "Compatibile con node v24; eliminare il codice inutile",
+        "es": "Compatible con node v24; eliminar el código innecesario",
+        "pl": "Kompatybilny z node v24; rozwiąż błąd npm test",
+        "uk": "Сумісний з node v24; вилучити невживаний код",
+        "zh-cn": "兼容node v24; 删除不必要的代码"
+      },
       "1.2.2": {
         "en": "Compatible with node v24; solve the error of npm test",
         "de": "Kompatibel mit node v24; Lösen Sie den Fehler von npm test",
+        "ru": "Совместим с node v24; решить ошибку npm test",
         "pt": "Formatação do código",
         "nl": "Compatibel met node v24; Los de fout op van npm test",
         "fr": "Compatible avec node v24; Résoudre l'erreur de npm test",
@@ -18,6 +32,7 @@
       "1.2.1": {
         "en": "Formatting the code",
         "de": "Formatierung des Codes",
+        "ru": "Форматирование кода",
         "pt": "Formatação do código",
         "nl": "Formatering van de code",
         "fr": "Formatage du code",
