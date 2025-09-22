@@ -15,7 +15,6 @@ class Refoss extends utils.Adapter {
     constructor(options) {
         super({
             ...options,
-            // @ts-expect-error set adapter name
             name: adapterName,
         });
         this.isUnloaded = false;

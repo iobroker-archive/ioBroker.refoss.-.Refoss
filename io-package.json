@@ -93,19 +93,6 @@
         "pl": "Rozwiąż problem, w którym wartość factor, mConsume, mConsumeRe wynosi 0, ale zwraca 0",
         "uk": "Виправте проблему, коли значення factor, mConsume, mConsumeRe дорівнює 0, але повертає 0",
         "zh-cn": "修复factor, mConsume, mConsumeRe有值但返回为0的问题"
-      },
-      "1.1.1": {
-        "en": "Enhance the compatibility of EM06P devices",
-        "de": "Verbessern Sie die Kompatibilität von EM06P-Geräten",
-        "ru": "Улучшить совместимость устройств EM06P",
-        "pt": "Melhore a compatibilidade de dispositivos EM06P",
-        "nl": "Verbeter de compatibiliteit van EM06P-apparaten",
-        "fr": "Améliorer la compatibilité des appareils EM06P",
-        "it": "Migliorare la compatibilità dei dispositivi EM06P",
-        "es": "Mejorar la compatibilidad de los dispositivos EM06P",
-        "pl": "Zwiększając zgodność urządzeń EM06P",
-        "uk": "Покращити сумісність пристроїв EM06P",
-        "zh-cn": "增加em06p设备的适配"
       }
     },
     "titleLang": {
@@ -163,7 +150,7 @@
     "singletonHost": true,
     "dependencies": [
       {
-        "js-controller": ">=5.0.19"
+        "js-controller": ">=6.0.11"
       }
     ]
   },

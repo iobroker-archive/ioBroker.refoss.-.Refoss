@@ -10,5 +10,7 @@ const chaiAsPromised = require('chai-as-promised');
 const { should, use } = require('chai');
 
 should();
+// @ts-ignore
 use(sinonChai);
+// @ts-ignore
 use(chaiAsPromised);
