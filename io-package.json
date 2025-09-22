@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "refoss",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "news": {
+      "1.2.4": {
+        "en": "Fix issues of npm test",
+        "de": "Beheben Sie Probleme von npm test",
+        "ru": "Исправить проблемы npm test",
+        "pt": "Corrigir problemas de npm test",
+        "nl": "Repareer problemen met npm test",
+        "fr": "Corriger les problèmes de npm test",
+        "it": "Risolvere i problemi di npm test",
+        "es": "Corregir problemas de npm test",
+        "pl": "Rozwiąż problemy z npm test",
+        "uk": "Вирішити проблеми npm test",
+        "zh-cn": "修复npm test的问题"
+      },
       "1.2.3": {
         "en": "Compatible with node v24; delete the unnecessary code",
         "de": "Kompatibel mit node v24; entfernen Sie den unnötigen Code",
@@ -80,19 +93,6 @@
         "pl": "Zwiększając zgodność urządzeń EM06P",
         "uk": "Покращити сумісність пристроїв EM06P",
         "zh-cn": "增加em06p设备的适配"
-      },
-      "1.1.2": {
-        "en": "Fix the problem that the value of factor, mConsume, mConsumeRe is 0 but returns 0",
-        "de": "Beheben Sie das Problem, dass der Wert von factor, mConsume, mConsumeRe 0 ist, aber 0 zurückgibt",
-        "ru": "Исправьте проблему, когда значение factor, mConsume, mConsumeRe равно 0, но возвращает 0",
-        "pt": "Corrija o problema em que o valor de factor, mConsume, mConsumeRe é 0, mas retorna 0",
-        "nl": "Fix het probleem dat de waarde van factor, mConsume, mConsumeRe 0 is, maar 0 retourneert",
-        "fr": "Corriger le problème où la valeur de factor, mConsume, mConsumeRe est 0 mais retourne 0",
-        "it": "Risolvi il problema in cui il valore di factor, mConsume, mConsumeRe è 0 ma restituisce 0",
-        "es": "Corregir el problema en que el valor de factor, mConsume, mConsumeRe es 0 pero retorna 0",
-        "pl": "Rozwiąż problem, w którym wartość factor, mConsume, mConsumeRe wynosi 0, ale zwraca 0",
-        "uk": "Виправте проблему, коли значення factor, mConsume, mConsumeRe дорівнює 0, але повертає 0",
-        "zh-cn": "修复factor, mConsume, mConsumeRe有值但返回为0的问题"
       }
     },
     "titleLang": {
