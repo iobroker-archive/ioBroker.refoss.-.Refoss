@@ -53,7 +53,7 @@ You can find more and detailed information about the device here: [Refoss](https
 
 ### 1.1.2 (2025-08-08)
 
-- (zhoulinyue) Fix the problem that the value of factor, mConsume, mConsumeRe is 0 but returns 0
+- (zhoulinyue) Fix the problem that the value of factor, mConsume, mConsumeX is 0 but returns 0
 
 ### 1.1.1 (2025-08-07)
 
