@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "refoss",
-    "version": "1.2.4",
+    "version": "1.3.0",
     "news": {
+      "1.3.0": {
+        "en": "EM06P、EM16P devices support merged channels",
+        "de": "EM06P、EM16P-Geräte unterstützen zusammengeführte Kanäle",
+        "ru": "Устройства EM06P、EM16P поддерживают объединенные каналы",
+        "pt": "Dispositivos EM06P、EM16P suportam canais combinados",
+        "nl": "EM06P、EM16P-apparaten ondersteunen samengevoegde kanalen",
+        "fr": "Les appareils EM06P、EM16P prennent en charge les canaux combinés",
+        "it": "I dispositivi EM06P、EM16P supportano canali combinati",
+        "es": "Los dispositivos EM06P、EM16P admiten canales combinados",
+        "pl": "Urządzenia EM06P、EM16P obsługują kombinowane kanały",
+        "uk": "Пристрої EM06P、EM16P підтримують комбіновані канали",
+        "zh-cn": "EM06P、EM16P设备支持合并通道"
+      },
       "1.2.4": {
         "en": "Fix issues of npm test",
         "de": "Beheben Sie Probleme von npm test",
@@ -80,19 +93,6 @@
         "pl": "Rozwiąż problem oficjalny wspomniany w PR",
         "uk": "Виправте проблему, яка згадується в PR",
         "zh-cn": "修复pr中官方提的issue"
-      },
-      "1.1.3": {
-        "en": "Enhance the compatibility of EM06P devices",
-        "de": "Verbessern Sie die Kompatibilität von EM06P-Geräten",
-        "ru": "Улучшить совместимость устройств EM06P",
-        "pt": "Melhore a compatibilidade de dispositivos EM06P",
-        "nl": "Verbeter de compatibiliteit van EM06P-apparaten",
-        "fr": "Améliorer la compatibilité des appareils EM06P",
-        "it": "Migliorare la compatibilità dei dispositivi EM06P",
-        "es": "Mejorar la compatibilidad de los dispositivos EM06P",
-        "pl": "Zwiększając zgodność urządzeń EM06P",
-        "uk": "Покращити сумісність пристроїв EM06P",
-        "zh-cn": "增加em06p设备的适配"
       }
     },
     "titleLang": {
