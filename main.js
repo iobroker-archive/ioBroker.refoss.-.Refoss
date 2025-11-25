@@ -138,7 +138,7 @@ class Refoss extends utils.Adapter {
         // Update online status
         const idOnline = `${deviceId}.online`;
         const stateOnline = await this.getStateAsync(idOnline);
-        const prevValue = stateOnline ? (stateOnline.val === true || stateOnline.val === 'true') : false;
+        const prevValue = stateOnline ? stateOnline.val === true || stateOnline.val === 'true' : false;
         if (prevValue !== status) {
             await this.setStateAsync(idOnline, { val: status, ack: true });
             // If the device goes online again, trigger data update
