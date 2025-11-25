@@ -23,7 +23,6 @@ class Refoss extends utils.Adapter {
         this.onlineCheckTimeout = null;
         this.onlineDevices = {};
         this.cachedDevices = [];
-        this.onlineState = {};
         this.on('ready', this.onReady.bind(this));
         // this.on('objectChange', this.onObjectChange.bind(this));
         // this.on('message', this.onMessage.bind(this));
@@ -52,7 +51,7 @@ class Refoss extends utils.Adapter {
     /**
      * @param callback onUnload callback
      */
-    onUnload(callback) {
+    async onUnload(callback) {
         this.isUnloaded = true;
 
         if (this.onlineCheckTimeout) {
@@ -66,7 +65,7 @@ class Refoss extends utils.Adapter {
                 this.clientServer.destroy();
             }
             if (this.server) {
-                this.server.destroy();
+                await this.server.destroy();
             }
             callback();
         } catch (e) {
@@ -76,26 +75,22 @@ class Refoss extends utils.Adapter {
     }
     async initOnlineStatus() {
         await this.getAllDeviceIds();
-        for (const d in this.cachedDevices) {
-            const deviceId = this.cachedDevices[d];
+        for (const deviceId of this.cachedDevices) {
             const idOnline = `${deviceId}.online`;
-            this.onlineState = (await this.getStateAsync(idOnline)) || {};
-            // Check whether the device is actually online
             const stateHostname = await this.getStateAsync(`${deviceId}.hostname`);
             const valHostname = stateHostname ? stateHostname.val : undefined;
+            let isAlive = false;
             if (valHostname) {
                 // Wrap tcpPing.probe with Promise
-                const isAlive = await new Promise(resolve => {
-                    tcpPing.probe(valHostname, 80, (error, isAlive) => {
-                        resolve(isAlive);
+                isAlive = await new Promise(resolve => {
+                    tcpPing.probe(valHostname, 80, (error, alive) => {
+                        resolve(alive);
                     });
                 });
-                await this.setStateAsync(idOnline, { val: isAlive, ack: true });
-                if (isAlive) {
-                    this.onlineDevices[deviceId] = true;
-                }
-            } else {
-                await this.setStateAsync(idOnline, { val: false, ack: true });
+            }
+            await this.setStateAsync(idOnline, { val: isAlive, ack: true });
+            if (isAlive) {
+                this.onlineDevices[deviceId] = true;
             }
         }
         // Update connection status
@@ -142,20 +137,15 @@ class Refoss extends utils.Adapter {
 
         // Update online status
         const idOnline = `${deviceId}.online`;
-        if (this.onlineState) {
-            // Compare to previous value
-            const prevValue = this.onlineState.val
-                ? this.onlineState.val === 'true' || this.onlineState.val === true
-                : false;
-            if (prevValue != status) {
-                this.onlineState.val = status;
-                await this.setStateAsync(idOnline, { val: status, ack: true });
-                // If the device goes online again, trigger data update
-                if (status && this.server) {
-                    const deviceBase = this.server.deviceBase.find(device => device.deviceId === deviceId);
-                    if (deviceBase) {
-                        await deviceBase.httpState();
-                    }
+        const stateOnline = await this.getStateAsync(idOnline);
+        const prevValue = stateOnline ? (stateOnline.val === true || stateOnline.val === 'true') : false;
+        if (prevValue !== status) {
+            await this.setStateAsync(idOnline, { val: status, ack: true });
+            // If the device goes online again, trigger data update
+            if (status && this.server) {
+                const deviceBase = this.server.deviceBase.find(device => device.deviceId === deviceId);
+                if (deviceBase) {
+                    await deviceBase.httpState();
                 }
             }
         }
@@ -185,6 +175,14 @@ class Refoss extends utils.Adapter {
     async getAllDeviceIds() {
         const devices = await this.getDevicesAsync();
         this.cachedDevices = devices.map(device => this.removeNamespace(device._id));
+    }
+    registerDeviceId(deviceId) {
+        if (!deviceId) {
+            return;
+        }
+        if (!this.cachedDevices.includes(deviceId)) {
+            this.cachedDevices.push(deviceId);
+        }
     }
     isOnline(deviceId) {
         return Object.prototype.hasOwnProperty.call(this.onlineDevices, deviceId);

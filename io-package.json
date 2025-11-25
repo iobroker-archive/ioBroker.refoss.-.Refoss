@@ -152,7 +152,8 @@
       {
         "js-controller": ">=6.0.11"
       }
-    ]
+    ],
+    "installedFrom": "iobroker.refoss@1.3.0"
   },
   "native": {},
   "objects": [],
