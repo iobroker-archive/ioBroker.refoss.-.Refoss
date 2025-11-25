@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "refoss",
-    "version": "1.3.1",
+    "version": "1.3.2",
     "news": {
+      "1.3.2": {
+        "en": "Fix the issue of check-and-lint",
+        "de": "Behebt das Problem mit check-and-lint",
+        "ru": "Исправляет проблему с проверкой и линтером",
+        "pt": "Corrige o problema do check-and-lint",
+        "nl": "Verhelpt het probleem met check-and-lint",
+        "fr": "Corrige le problème lié au check-and-lint",
+        "it": "Corregge il problema con check-and-lint",
+        "es": "Corrige el problema con check-and-lint",
+        "pl": "Naprawia problem z check-and-lint",
+        "uk": "Виправляє проблему з check-and-lint",
+        "zh-cn": "修复 check-and-lint 的问题"
+      },
       "1.3.1": {
         "en": "Fix the issue of device data update failure after network switch",
         "de": "Behebt das Problem, dass die Aktualisierung der Gerätedaten nach einem Netzwechsel fehlschlägt",
@@ -81,19 +94,6 @@
         "uk": "Форматування коду",
         "zh-cn": "格式化代码"
       },
-      "1.2.0": {
-        "en": "Add support for EM16P devices",
-        "de": "Unterstützung für EM16P-Geräte hinzugefügt",
-        "ru": "Добавлена поддержка устройств EM16P",
-        "pt": "Adicionado suporte para dispositivos EM16P",
-        "nl": "Ondersteuning toegevoegd voor EM16P-apparaten",
-        "fr": "Ajout de la prise en charge des appareils EM16P",
-        "it": "Aggiunto supporto per i dispositivi EM16P",
-        "es": "Se añadió soporte para dispositivos EM16P",
-        "pl": "Dodano wsparcie dla urządzeń EM16P",
-        "uk": "Додано підтримку пристроїв EM16P",
-        "zh-cn": "添加对em16p设备的支持"
-      }
     },
     "titleLang": {
       "en": "Refoss",

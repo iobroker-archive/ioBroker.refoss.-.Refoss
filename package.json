@@ -1,10 +1,10 @@
 {
   "name": "iobroker.refoss",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Integrate your Refoss devices",
   "author": {
-    "name": "zhaochuanling",
-    "email": "zhaochuanling8@gmail.com"
+    "name": "zhoulinyue",
+    "email": "zhoulinyue@meross.com"
   },
   "contributors": [
     {
