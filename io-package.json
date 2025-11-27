@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "refoss",
-    "version": "1.3.2",
+    "version": "1.3.3",
     "news": {
+      "1.3.3": {
+        "en": "Fix the issue of json",
+        "de": "Behebt das Problem mit json",
+        "ru": "Исправляет проблему с проверкой и линтером",
+        "pt": "Corrige o problema do json",
+        "nl": "Verhelpt het probleem met json",
+        "fr": "Corrige le problème lié au json",
+        "it": "Corregge il problema con json",
+        "es": "Corrige el problema con json",
+        "pl": "Naprawia problem z json",
+        "uk": "Виправляє проблему з json",
+        "zh-cn": "修复 json 的问题"
+      },
       "1.3.2": {
         "en": "Fix the issue of check-and-lint",
         "de": "Behebt das Problem mit check-and-lint",
@@ -93,7 +106,7 @@
         "pl": "Formatowanie kodu",
         "uk": "Форматування коду",
         "zh-cn": "格式化代码"
-      },
+      }
     },
     "titleLang": {
       "en": "Refoss",

@@ -26,6 +26,9 @@ You can find more and detailed information about the device here: [Refoss](https
 | Refoss Smart Energy Monitor, EM06 | >= v2.3.8 |
 
 ## Changelog
+### 1.3.3 (2025-11-27)
+
+- (zhoulinyue) Fix the issue of json
 ### 1.3.2 (2025-11-25)
 
 - (zhoulinyue) Fix the issue of check-and-lint
